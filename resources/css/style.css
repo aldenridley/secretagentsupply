@@ -35,3 +35,34 @@ header span p {
   width: 100%;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
 }
+
+.newarrivalbox {
+  padding-left: 3rem;
+  width: 20rem;
+  padding-top: 9rem;
+}
+
+.text {
+  background-color: black;
+}
+
+.newarrivalbox .subheader p {
+  padding-top: 2rem;
+  padding-bottom: .25rem;
+  font-size: 1rem;
+  font-family: helvetica;
+  font-weight: bold;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.newarrivalbox .header h1 {
+  color: white;
+  font-size: 2rem;
+  font-family: helvetica;
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
