@@ -66,3 +66,22 @@ header span p {
   padding-right: 3rem;
   padding-bottom: 2rem;
 }
+
+/* categories section */
+
+.category {
+  background-color: firebrick;
+  justify-content: space-around;
+}
+
+.caetgory span {
+
+}
+
+.category span p {
+  color: white;
+  font-family: helvetica;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+}
