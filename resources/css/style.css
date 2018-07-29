@@ -1,16 +1,11 @@
 html,
 body {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .flex-container {
   display: flex;
 }
-
-/* .container {
-  max-width: 960px;
-  margin: 0 auto;
-} */
 
 /* header section */
 
@@ -131,4 +126,51 @@ header span p {
   font-family: helvetica;
   padding-top: .5rem;
   padding-bottom: .5rem;
+}
+
+/* details section */
+
+.details {
+  margin-top: 3rem;
+  font-family: helvetica;
+  display: flex;
+  justify-content: space-around;
+}
+
+.indiv-detail {
+  width: 35%
+}
+
+.detail-descrip {
+
+}
+
+.detail-descrip p {
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  display: block;
+}
+
+/* footer section */
+
+.footer {
+  background-color: black;
+  height: 10rem;
+  margin-top: 4rem;
+  display: flex;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.footer .copyright p {
+  color: white;
+  text-align: left;
+  font-family: helvetica;
+  margin-left: 5rem;
 }
