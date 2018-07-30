@@ -22,7 +22,7 @@ header img {
   height: 1.5rem;
 }
 
-header span p {
+header span {
   color: white;
   padding-top: .66rem;
   padding-bottom: .66rem;
@@ -81,7 +81,7 @@ header span p {
   display: none;
 }
 
-.category span p {
+.category span {
   color: white;
   font-family: helvetica;
   padding-top: .75rem;
@@ -257,6 +257,10 @@ header span p {
   .details {
     display: block;
     margin-left: 2rem;
+  }
+
+  .detail-descrip {
+    margin-bottom: .5rem;
   }
 
   .copyright {
