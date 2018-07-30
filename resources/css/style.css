@@ -77,8 +77,8 @@ header span p {
   justify-content: space-around;
 }
 
-.caetgory span {
-
+.menu {
+  display: none;
 }
 
 .category span p {
@@ -173,4 +173,41 @@ header span p {
   text-align: left;
   font-family: helvetica;
   margin-left: 5rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1024px)  {
+
+  .newarrivalbox {
+    padding-left: 0;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .products {
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: inherit;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .details {
+    justify-content: space-between;
+  }
+
+  .footer .copyright p {
+    margin-left: 0;
+  }
 }
